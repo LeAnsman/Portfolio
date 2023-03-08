@@ -37,16 +37,15 @@ select:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px white inset;
   box-shadow: inset 0 0 0 1px white, inset 0 0 0 100px white;
 }
-
+textarea:focus-visible,
 input:focus-visible {
-  border: none;
   outline: none;
 }
 
 /* Button home animation */
 
 .btn__home {
-  background: linear-gradient(to left, #0a192f 50%, #64ffda 50%) right;
+  background: linear-gradient(to left, transparent 50%, #18d4de 50%) right;
   background-size: 200%;
   transition: 0.5s ease-out;
 }
@@ -258,7 +257,7 @@ input:focus-visible {
   transform: scaleX(0);
   height: 2px;
   left: 0;
-  background-color: #64ffda;
+  background-color: #18d4de;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -293,13 +292,13 @@ input:focus-visible {
   height: 100%;
   background: -webkit-linear-gradient(
     left,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.3) 100%
+    rgba(20, 10, 47, 0) 0%,
+    rgba(20, 10, 47, 0.3) 100%
   );
   background: linear-gradient(
     to right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.3) 100%
+    rgba(20, 10, 47, 0) 0%,
+    rgba(20, 10, 47, 0.3) 100%
   );
   -webkit-transform: skewX(-25deg);
   transform: skewX(-25deg);

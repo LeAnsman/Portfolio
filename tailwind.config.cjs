@@ -8,8 +8,8 @@ module.exports = {
         roboto: "Roboto Mono, sans-serif",
       },
       colors: {
-        primary: "#0a192f",
-        secondary: "#64FFDA",
+        primary: "#140A2F",
+        secondary: "#18D4DE",
       },
       animation: {
         comeRight: "comeFromRight 0.35s ease-in",
