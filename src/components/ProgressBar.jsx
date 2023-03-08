@@ -5,7 +5,7 @@ export default function ProgressBar({ scroll }) {
     <>
       <div
         className={`
-       fixed w-full h-1 z-[60] bg-transparent 
+       fixed w-full h-1 z-[60] bg-primary
       `}
       >
         <div
