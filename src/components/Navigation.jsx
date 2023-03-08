@@ -45,7 +45,7 @@ export default function Navigation() {
         >
           <a
             href="#about"
-            className="transition duration-300 hover:text-secondary"
+            className="hover-underline-animation-nav transition duration-300 hover:text-secondary"
           >
             <span className="text-secondary">01.</span>
             about
@@ -60,7 +60,7 @@ export default function Navigation() {
         >
           <a
             href="#skills"
-            className="transition duration-300 hover:text-secondary"
+            className="hover-underline-animation-nav transition duration-300 hover:text-secondary"
           >
             <span className="text-secondary">02.</span>
             skills
@@ -75,7 +75,7 @@ export default function Navigation() {
         >
           <a
             href="#work"
-            className="transition duration-300 hover:text-secondary"
+            className="hover-underline-animation-nav transition duration-300 hover:text-secondary"
           >
             <span className="text-secondary">03.</span>
             work
@@ -90,7 +90,7 @@ export default function Navigation() {
         >
           <a
             href="#contact"
-            className="transition duration-300 hover:text-secondary"
+            className="hover-underline-animation-nav transition duration-300 hover:text-secondary"
           >
             <span className="text-secondary ">04.</span>
             contact
