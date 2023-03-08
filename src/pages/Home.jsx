@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <section
       id="#"
-      className="min-h-screen max-w-2xl flex flex-col justify-center items-center sm:items-start gap-16 font-roboto overflow-hidden"
+      className="min-h-screen max-w-2xl xl:max-w-3xl mx-auto sm:mx-0 flex flex-col justify-center items-start gap-16 font-roboto overflow-hidden"
     >
       <h1
         className={`text-secondary font-sourceCodePro text-2xl ml-2 transition duration-500 delay-150 ${
@@ -25,33 +25,38 @@ export default function Home() {
         Hi, I'm
       </h1>
       <div
-        className={`text-4xl sm:text-8xl font-bold  transition duration-500 delay-300 font-sourceCodePro ${
+        className={`text-4xl sm:text-8xl font-bold  transition duration-500 delay-300  ${
           loaded ? "translate-y-0" : "opacity-0 translate-y-4"
         }`}
       >
-        <h2>ANSELME</h2>
-        <h2>ANSELME</h2>
-        <h2>ANSELME</h2>
+        <h2 className="glitch">ANSELME</h2>
+        <h2 className="glitch">ANSELME</h2>
+        <h2 className="glitch">ANSELME</h2>
       </div>
 
-      <h3
-        className={`text-gray-400 text-center sm:text-left sm:text-xl transition duration-500 delay-[450ms] ${
+      <div
+        className={`text-gray-400  sm:text-lg transition duration-500 delay-[450ms] ${
           loaded ? "translate-y-0" : "opacity-0 translate-y-4"
         }`}
       >
-        Welcome to my portfolio!
-        <br />I am a fullstack web developer specialized in JavaScript, React,
-        and Node.js. My aim is to deliver efficient and user-friendly web
-        applications with attractive designs. I am passionate about what I do
-        and am always looking for new and innovative ways to improve myself.
-      </h3>
+        <h3 className="font-bold text-gray-300 pb-4">
+          Welcome to my portfolio!
+        </h3>
+        <p>
+          I am a junior full stack web developer specialized in JavaScript,
+          React, and Node.js. My aim is to deliver efficient and user-friendly
+          web applications with attractive designs. I am passionate about what I
+          do and am always looking for new and innovative ways to improve my
+          skills.
+        </p>
+      </div>
       <div
         className={`transition duration-500 delay-[600ms] ${
           loaded ? "translate-y-0" : "opacity-0 translate-y-4 "
         }`}
       >
         <div
-          className={` py-4 text-secondary border border-secondary  font-sourceCodePro  btn__home`}
+          className="btn__home  font-sourceCodePro text-secondary border border-secondary py-4"
           id="btn"
         >
           <Link
@@ -62,13 +67,8 @@ export default function Home() {
           </Link>
         </div>
       </div>
-
-      <div
-        className={`hidden lg:block absolute max-w-sm right-0 transition duration-150 ${
-          loaded ? "opacity-1" : "opacity-0"
-        }`}
-      >
-        <Parallax speed={-35}>
+      <div className="hidden lg:block absolute max-w-sm right-0">
+        <Parallax speed={-20}>
           <Player autoplay loop src="/assets/LaptopLottie.json" />
         </Parallax>
       </div>
