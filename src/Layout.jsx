@@ -46,7 +46,7 @@ export default function Layout() {
 
   return (
     <ParallaxProvider>
-      <div className="bg-primary">
+      <div className="bg-gradient-to-tr from-primary to-[#25354d]">
         <header>
           <ProgressBar scroll={scrollP} />
           <Navigation />

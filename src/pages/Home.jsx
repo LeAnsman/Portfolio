@@ -25,7 +25,7 @@ export default function Home() {
         Hi, I'm
       </h1>
       <div
-        className={`text-4xl sm:text-8xl font-bold  transition duration-500 delay-300 font-roboto ${
+        className={`text-4xl sm:text-8xl font-bold  transition duration-500 delay-300 font-sourceCodePro ${
           loaded ? "translate-y-0" : "opacity-0 translate-y-4"
         }`}
       >
@@ -39,11 +39,11 @@ export default function Home() {
           loaded ? "translate-y-0" : "opacity-0 translate-y-4"
         }`}
       >
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
-        dignissimos eum nostrum nemo libero, cupiditate, quae, debitis obcaecati
-        vitae dolorum neque voluptatibus excepturi eveniet magni laboriosam
-        rerum. A eveniet totam, neque perspiciatis saepe enim, quasi porro,
-        veritatis maxime tempora corporis.
+        Welcome to my portfolio!
+        <br />I am a fullstack web developer specialized in JavaScript, React,
+        and Node.js. My aim is to deliver efficient and user-friendly web
+        applications with attractive designs. I am passionate about what I do
+        and am always looking for new and innovative ways to improve myself.
       </h3>
       <div
         className={`transition duration-500 delay-[600ms] ${
@@ -56,7 +56,7 @@ export default function Home() {
         >
           <Link
             to={"/resume"}
-            className="px-6 md:px-12 py-4 transition duration-500 hover:text-primary"
+            className="px-6 sm:px-12 py-4 transition duration-500 hover:text-primary"
           >
             check out my resume
           </Link>
@@ -68,7 +68,7 @@ export default function Home() {
           loaded ? "opacity-1" : "opacity-0"
         }`}
       >
-        <Parallax speed={-30}>
+        <Parallax speed={-35}>
           <Player autoplay loop src="/assets/LaptopLottie.json" />
         </Parallax>
       </div>
