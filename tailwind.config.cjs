@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sourceCodePro: "Source Code Pro, monospace",
-        roboto: "Roboto, sans-serif",
+        roboto: "Roboto Mono, sans-serif",
       },
       colors: {
         primary: "#0a192f",
@@ -18,6 +18,7 @@ module.exports = {
         fadeLeft: "fadeFromLeft 0.35s ease-in",
         fadeIn: "fadeIn 0.35s ease-in",
         fadeOut: "fadeOut 0.35s ease-in",
+        spinSlow: "spin 10s linear infinite",
       },
       keyframes: {
         comeFromRight: {
