@@ -28,7 +28,7 @@ export default function Navigation() {
 
   return (
     <nav
-      className={`fixed top-0 w-full bg-gradient-to-b backdrop-blur-sm from-white/5 to-black/5 shadow-lg flex items-center justify-center md:justify-between px-36 py-6 transition duration-500 z-50 ${
+      className={`fixed top-0 w-full bg-gradient-to-b backdrop-blur-sm from-white/5 to-black/10 shadow-lg flex items-center justify-center md:justify-between px-36 py-6 transition duration-500 z-50 ${
         visible ? "lg:translate-y-0" : "lg:-translate-y-[100px] "
       }`}
     >
