@@ -6,7 +6,14 @@ export default function Work() {
       className="min-h-screen flex flex-col justify-center items-center"
       id="work"
     >
-      Work
+      <div>
+        <h4 className="glitch">MY WORK</h4>
+        <h4 className="glitch">MY WORK</h4>
+        <h4 className="glitch">MY WORK</h4>
+      </div>
+      <div>
+        
+      </div>
     </section>
   );
 }

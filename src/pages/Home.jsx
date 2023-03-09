@@ -17,21 +17,21 @@ export default function Home() {
       id="#"
       className="min-h-screen max-w-2xl xl:max-w-3xl mx-auto sm:mx-0 flex flex-col justify-center items-start gap-16 font-roboto overflow-hidden"
     >
-      <h1
+      <p
         className={`text-secondary font-sourceCodePro text-2xl ml-2 transition duration-500 delay-150 ${
           loaded ? "translate-y-0" : "opacity-0 translate-y-4"
         }`}
       >
         Hi, I'm
-      </h1>
+      </p>
       <div
         className={`text-4xl sm:text-8xl font-bold  transition duration-500 delay-300  ${
           loaded ? "translate-y-0" : "opacity-0 translate-y-4"
         }`}
       >
-        <h2 className="glitch">ANSELME</h2>
-        <h2 className="glitch">ANSELME</h2>
-        <h2 className="glitch">ANSELME</h2>
+        <h1 className="glitch">ANSELME</h1>
+        <h1 className="glitch">ANSELME</h1>
+        <h1 className="glitch">ANSELME</h1>
       </div>
 
       <div
@@ -39,9 +39,7 @@ export default function Home() {
           loaded ? "translate-y-0" : "opacity-0 translate-y-4"
         }`}
       >
-        <h3 className="font-bold text-gray-300 pb-4">
-          Welcome to my portfolio!
-        </h3>
+        <p className="font-bold text-gray-300 pb-4">Welcome to my portfolio!</p>
         <p>
           I am a junior full stack web developer specialized in JavaScript,
           React, and Node.js. My aim is to deliver efficient and user-friendly

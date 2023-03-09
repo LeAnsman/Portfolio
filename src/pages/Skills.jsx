@@ -6,7 +6,9 @@ export default function Skills() {
       className="min-h-screen flex flex-col justify-center items-center"
       id="skills"
     >
-      Skills
+      <h3 className="glitch">MY SKILLS</h3>
+      <h3 className="glitch">MY SKILLS</h3>
+      <h3 className="glitch">MY SKILLS</h3>
     </section>
   );
 }

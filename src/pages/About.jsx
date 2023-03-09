@@ -10,9 +10,9 @@ export default function About() {
       <div className="grid grid-cols-1 sm:grid-cols-2 text-white text-left gap-16">
         <div className="flex flex-col justify-center items-center gap-16 font-roboto uppercase text-4xl ">
           <div data-aos="fade-down">
-            <h4 className="glitch">About Me</h4>
-            <h4 className="glitch">About Me</h4>
-            <h4 className="glitch">About Me</h4>
+            <h2 className="glitch">About Me</h2>
+            <h2 className="glitch">About Me</h2>
+            <h2 className="glitch">About Me</h2>
           </div>
           <div className="shine" data-aos="fade-down">
             <figure className="rounded-full overflow-hidden w-1/2 mx-auto">
