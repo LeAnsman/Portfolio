@@ -317,3 +317,23 @@ input:focus-visible {
     left: 125%;
   }
 }
+
+/* Toastify */
+
+/* Toastify  */
+:root {
+  --toastify-icon-color-error: white;
+}
+
+.Toastify__progress-bar {
+  background: linear-gradient(to right, #f34e6f, #f5385d, #d83757);
+}
+
+.Toastify__toast--error {
+  background: #f67a93;
+  color: white;
+}
+
+.Toastify__close-button {
+  display: none;
+}
