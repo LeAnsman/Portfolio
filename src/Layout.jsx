@@ -7,6 +7,9 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Work from "./pages/Work";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Footer from "./components/Footer";
 
 export default function Layout() {
   const [scrollP, setScrollP] = useState(0);
@@ -42,6 +45,7 @@ export default function Layout() {
 
   useEffect(() => {
     listenToScrollEvent();
+    AOS.init();
   }, []);
 
   return (
@@ -58,6 +62,7 @@ export default function Layout() {
           <Work />
           <Contact />
         </main>
+        <Footer />
       </div>
     </ParallaxProvider>
   );

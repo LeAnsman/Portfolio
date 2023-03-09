@@ -1,13 +1,7 @@
 import { Player } from "@lottiefiles/react-lottie-player";
-import React, { useEffect } from "react";
 import { Parallax } from "react-scroll-parallax";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 export default function About() {
-  useEffect(() => {
-    AOS.init();
-  });
   return (
     <section
       className="min-h-screen flex flex-col justify-center items-center"
