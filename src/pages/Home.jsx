@@ -67,7 +67,7 @@ export default function Home() {
       </div>
       <div className="hidden lg:block absolute max-w-sm right-0">
         <Parallax speed={-20}>
-          <Player autoplay loop src="/assets/LaptopLottie.json" />
+          <Player autoplay loop src="/assets/lottiefiles/LaptopLottie.json" />
         </Parallax>
       </div>
     </section>

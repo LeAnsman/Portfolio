@@ -17,7 +17,7 @@ export default function About() {
           <div className="shine" data-aos="fade-down">
             <figure className="rounded-full overflow-hidden w-1/2 mx-auto">
               <img
-                src="/assets/Anselme.png"
+                src="/assets/images/Anselme.png"
                 alt=""
                 className="bg-white/75 rounded-full"
               />
@@ -66,7 +66,7 @@ export default function About() {
       <div className="hidden absolute lg:flex left-20">
         <Parallax speed={-20}>
           <img
-            src="/assets/RoundTextPurple.png"
+            src="/assets/images/RoundTextPurple.png"
             alt="Round text"
             className="w-[30%] animate-spinSlow"
           />

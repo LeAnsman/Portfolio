@@ -33,7 +33,7 @@ export default function Navigation() {
       }`}
     >
       <a href="#" className="animate-fadeIn">
-        <img src="/assets/Logo.png" alt="" className="w-8 h-7" />
+        <img src="/assets/images/Logo.png" alt="" className="w-8 h-7" />
       </a>
       <ul className="hidden md:flex gap-10 text-white font-sourceCodePro text-sm">
         <li
