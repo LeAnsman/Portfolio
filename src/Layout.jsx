@@ -56,7 +56,7 @@ export default function Layout() {
           <ProgressBar scroll={scrollP} />
           <Navigation />
         </header>
-        <main className="overflow-hidden max-w-5xl mx-10 xl:mx-auto">
+        <main className="overflow-hidden max-w-5xl mx-10 md:mx-auto">
           <Home />
           <About />
           <Skills />
