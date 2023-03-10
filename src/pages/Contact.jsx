@@ -20,20 +20,13 @@ export default function Contact() {
           data-aos="fade-right"
         >
           <p className="text-lg text-center pb-4" data-aos="fade-in">
-            I am here to{" "}
-            <span className="hover-underline-animation text-secondary">
-              help
-            </span>{" "}
-            and{" "}
-            <span className="hover-underline-animation text-secondary">
-              answer
-            </span>{" "}
-            any question you might have.
+            I am here to <span className="text-secondary">help</span> and{" "}
+            <span className="text-secondary">answer</span> any question you
+            might have.
           </p>
           <ContactForm />
         </div>
       </section>
-      <ContactLinks />
     </>
   );
 }

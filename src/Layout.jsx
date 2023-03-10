@@ -10,6 +10,7 @@ import Work from "./pages/Work";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./components/Footer";
+import ContactLinks from "./components/ContactLinks";
 
 export default function Layout() {
   const [scrollP, setScrollP] = useState(0);
@@ -61,6 +62,7 @@ export default function Layout() {
           <Skills />
           <Work />
           <Contact />
+          <ContactLinks />
         </main>
         <Footer />
       </div>
