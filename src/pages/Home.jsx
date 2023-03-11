@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <section
       id="#"
-      className="min-h-screen max-w-2xl xl:max-w-3xl mx-auto sm:mx-10 flex flex-col justify-center items-start gap-16 font-roboto overflow-hidden"
+      className="min-h-screen max-w-2xl xl:max-w-3xl mx-auto sm:mx-10 flex flex-col justify-center items-start gap-16 font-roboto overflow-hidden pt-20"
     >
       <p
         className={`text-secondary font-sourceCodePro text-2xl ml-2 transition duration-500 delay-150 ${
