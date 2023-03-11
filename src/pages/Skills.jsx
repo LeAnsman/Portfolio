@@ -4,7 +4,7 @@ import CanvasContainer from "../components/CanvasContainer";
 export default function Skills() {
   return (
     <section
-      className="min-h-screen flex flex-col justify-center items-center"
+      className="min-h-screen flex flex-col justify-center items-center pt-20"
       id="skills"
     >
       <div

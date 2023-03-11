@@ -4,7 +4,7 @@ import { Parallax } from "react-scroll-parallax";
 export default function About() {
   return (
     <section
-      className="min-h-screen flex flex-col justify-center items-center"
+      className="min-h-screen flex flex-col justify-center items-center pt-20"
       id="about"
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 text-white text-left gap-16">

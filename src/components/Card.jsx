@@ -30,7 +30,7 @@ export default function Card({
       <p className="absolute right-5 bottom-2 font-medium bg-secondary/50 px-4 py-2 rounded-lg text-sm transition duration-300  lg:opacity-0 lg:group-hover:opacity-100 lg:group-hover:z-10">
         {fourthTag}
       </p>
-      <div className="lg:relative h-72 lg:h-80 w-72 sm:w-64 lg:w-56 bg-primary/50  border border-secondary cursor-pointer flex justify-center items-center">
+      <div className="lg:relative h-72 lg:h-80 w-64 lg:w-56 bg-primary/50  border border-secondary cursor-pointer flex justify-center items-center">
         <p className="text-center">{title}</p>
       </div>
     </a>

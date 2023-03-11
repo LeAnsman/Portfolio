@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <>
       <section
-        className="min-h-screen flex flex-col justify-center items-center text-white relative"
+        className="min-h-screen flex flex-col justify-center items-center text-white relative pt-20"
         id="contact"
       >
         <div className="mb-20 text-4xl" data-aos="fade-up">
