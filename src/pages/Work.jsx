@@ -27,7 +27,8 @@ export default function Work() {
         />
         <Card
           title={"r3f landing page"}
-          link={"/"}
+          link={"https://ring-lord-landing-page.vercel.app/"}
+          backgroundImg={"assets/images/LordOfTheLandingPage.png"}
           firstTag={"react"}
           secondTag={"r3f"}
           thirdTag={"3d"}
@@ -36,6 +37,7 @@ export default function Work() {
         <Card
           title={"aircnc"}
           link={"https://airc-n-c.vercel.app/"}
+          backgroundImg={"assets/images/AirCnC.png"}
           firstTag={"react"}
           secondTag={"nodejs"}
           thirdTag={"learning"}
