@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 
@@ -6,6 +6,8 @@ export default function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+
+  const form = useRef();
 
   let inputClassName =
     "peer h-12 w-full border-2 px-4 bg-white/5 border-secondary shadow-md placeholder-transparent focus:border-secondary focus:ring-secondary text-white ";
@@ -15,25 +17,25 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const data = { name, email, message };
+    emailjs
+      .sendForm(
+        "contact_service",
+        "template_default",
+        form.current,
+        "mdanuWGQy8-t9drwY"
+      )
+      .then(
+        (result) => {
+          toast(<p>Thanks for sending a message! 🤝</p>);
 
-    // emailjs
-    //   .sendForm(
-    //     "contact_service",
-    //     "template_default",
-    //     data,
-    //     "mdanuWGQy8-t9drwY"
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
-    // toast(<p>Thanks for sending a message! 🤝</p>);
-    toast.error("An error occured, please try again later.");
+          console.log(result.text);
+        },
+        (error) => {
+          toast.error("An error occured, please try again later.");
+
+          console.log(error.text);
+        }
+      );
 
     setName("");
     setEmail("");
@@ -44,6 +46,7 @@ export default function ContactForm() {
     <form
       className="flex flex-col items-center gap-12 w-full mt-6 mb-4"
       onSubmit={handleSubmit}
+      ref={form}
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 md:gap-4 w-full">
         <div className="relative w-full cursor-pointer">
