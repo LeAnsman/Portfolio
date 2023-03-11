@@ -23,7 +23,9 @@ export default function Navigation() {
                 d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
               />
             </svg>
-            back to the portfolio
+            <p className="text-white transition duration-300 hover:text-secondary">
+              back to the portfolio
+            </p>
           </a>
         </div>
       </nav>
