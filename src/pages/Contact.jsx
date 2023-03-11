@@ -19,7 +19,7 @@ export default function Contact() {
           className="w-full md:w-3/4 bg-white/5 p-5 rounded-lg shadow-lg font-roboto"
           data-aos="fade-right"
         >
-          <p className="text-lg text-center pb-4" data-aos="fade-in">
+          <p className="text-center pb-8" data-aos="fade-in">
             I am here to <span className="text-secondary">help</span> and{" "}
             <span className="text-secondary">answer</span> any question you
             might have.

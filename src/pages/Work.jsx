@@ -4,7 +4,7 @@ import Card from "../components/Card";
 export default function Work() {
   return (
     <section
-      className="min-h-screen flex flex-col justify-center items-center"
+      className="min-h-screen lg:min-h-[80vh] flex flex-col justify-center items-center"
       id="work"
     >
       <div className="mb-20 text-4xl" data-aos="fade-up">
@@ -22,7 +22,7 @@ export default function Work() {
           backgroundImg={"assets/images/SchoolHelper.png"}
           firstTag={"react"}
           secondTag={"ui/ux"}
-          thirdTag={"laravel"}
+          thirdTag={"learning"}
           fourthTag={"front"}
         />
         <Card

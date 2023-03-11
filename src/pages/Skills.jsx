@@ -7,7 +7,11 @@ export default function Skills() {
       className="min-h-screen flex flex-col justify-center items-center"
       id="skills"
     >
-      <div>
+      <div
+        className="text-4xl"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <h3 className="glitch">MY SKILLS</h3>
         <h3 className="glitch">MY SKILLS</h3>
         <h3 className="glitch">MY SKILLS</h3>

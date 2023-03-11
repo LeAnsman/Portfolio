@@ -5,7 +5,7 @@ import { OrbitControls } from "@react-three/drei";
 
 export default function CanvasContainer() {
   return (
-    <Canvas className="w-full !h-[80vh]">
+    <Canvas className="sm:!w-1/2 !h-[80vh] pt-20">
       <Scene />
       <OrbitControls enableZoom={false} />
     </Canvas>
