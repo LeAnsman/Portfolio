@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navigation() {
   return (
-    <header className="bg-gradient-to-r from-primary to-[#2f1735]">
+    <header className="bg-gradient-to-r from-[#221735] to-[#2f1735]">
       <nav className="flex justify-center items-center py-4 animate-fadeIn">
         <div className="hover-underline-animation-nav animate-pulse text-secondary">
           <a
